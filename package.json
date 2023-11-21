@@ -1,7 +1,10 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@florian-s-a-w/uniswap-v2-sdk",
   "license": "MIT",
-  "version": "3.2.3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "3.2.4",
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +27,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "^4.0.7",
+    "@uniswap/sdk-core": "npm:@koraykoska/uniswap-sdk-core@^6.0.9",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
