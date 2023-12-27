@@ -1,5 +1,5 @@
 {
-  "name": "@uniswpafoundation/uniswap-v2-sdk",
+  "name": "@uniswapfoundation/v2-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -27,7 +27,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "npm:@uniswapfoundation/sdk-core^5.0.0",
+    "@uniswap/sdk-core": "npm:@uniswapfoundation/sdk-core@^5.0.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
